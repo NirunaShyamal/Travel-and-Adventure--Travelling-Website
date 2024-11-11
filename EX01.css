@@ -1,0 +1,154 @@
+.navbar {
+    font-family:"Poppins", sans-serif;
+    font-size: 1.2rem;
+
+    justify-content: space-between; 
+    align-items: center; 
+   
+
+    
+    
+  
+}
+
+.navbar-nav {
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: space-between;
+   
+    margin-left: auto; 
+}
+
+
+#navbar__logo {
+    font-size: 1.9rem; 
+    
+    
+    
+}
+.img-fluid {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(-7px); 
+    opacity: 0.7; 
+    z-index: -5; 
+  }
+
+.position-relative {
+    position: relative;
+    height: 800px; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    z-index: 2; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+p {
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 100px 30px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    align-content: center;
+   
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+  
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 0; 
+    font-size: 0.9rem; 
+}
+
+.footer .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.footer .row {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.footer-col-1, .footer-col-3, .footer-col-4, .footer-col-5 {
+    flex: 1; 
+    padding: 10px; 
+    min-width: 200px; 
+}
+
+.footer-col-1 h3, .footer-col-3 h3, .footer-col-4 h3, .footer-col-5 h3 {
+    font-size: 1.1rem; 
+    margin-bottom: 8px; 
+}
+
+.footer ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer ul li {
+    margin-bottom: 6px; 
+}
+
+.footer ul li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 0.9rem; 
+}
+
+.footer ul li a:hover {
+    text-decoration: underline; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .footer-col-1, .footer-col-3, .footer-col-4, .footer-col-5 {
+        text-align: center;
+        margin-bottom: 15px; 
+    }
+}
+
+
+.choose
+{
+    text-align: center;
+    background:#62e97b;
+
+}
